@@ -41,6 +41,22 @@
                 "type": "WSpotWs",
                 "description": ""
             }
+        },
+        {
+            "name": "messageHandler",
+            "access": "",
+            "virtual": false,
+            "description": "Define messageHandler",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "spotProxy",
+            "access": "",
+            "virtual": false,
+            "description": "Define signal proxy",
+            "parameters": [],
+            "examples": []
         }
     ],
     "classes": [
@@ -59,6 +75,34 @@
             }
         },
         {
+            "name": "WSpotWSClient",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "WSpotWSClient",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "WSpotWSServer",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "WSpotWSServer",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
             "name": "WSpotWS",
             "description": "",
             "extends": [],
@@ -67,6 +111,34 @@
             "fires": "",
             "constructor": {
                 "name": "WSpotWS",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "WSpotWSClient",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "WSpotWSClient",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "WSpotWSServer",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "WSpotWSServer",
                 "description": "",
                 "parameters": [],
                 "examples": []
