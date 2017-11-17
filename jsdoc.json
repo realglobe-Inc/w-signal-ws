@@ -4,7 +4,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a WSignalWs instance",
+            "description": "Create a WSpotWs instance",
             "parameters": [
                 {
                     "name": "args",
@@ -17,7 +17,7 @@
             ],
             "examples": [],
             "returns": {
-                "type": "WSignalWs",
+                "type": "WSpotWs",
                 "description": ""
             }
         },
@@ -25,7 +25,7 @@
             "name": "create",
             "access": "",
             "virtual": false,
-            "description": "Create a WSignalWs instance",
+            "description": "Create a WSpotWs instance",
             "parameters": [
                 {
                     "name": "args",
@@ -38,35 +38,35 @@
             ],
             "examples": [],
             "returns": {
-                "type": "WSignalWs",
+                "type": "WSpotWs",
                 "description": ""
             }
         }
     ],
     "classes": [
         {
-            "name": "WSignalWs",
+            "name": "WSpotWS",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "WSignalWs",
+                "name": "WSpotWS",
                 "description": "",
                 "parameters": [],
                 "examples": []
             }
         },
         {
-            "name": "WSignalWs",
+            "name": "WSpotWS",
             "description": "",
             "extends": [],
             "access": "",
             "virtual": false,
             "fires": "",
             "constructor": {
-                "name": "WSignalWs",
+                "name": "WSpotWS",
                 "description": "",
                 "parameters": [],
                 "examples": []

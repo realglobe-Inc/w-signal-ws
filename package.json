@@ -1,7 +1,7 @@
 {
-  "name": "w-signal-ws",
+  "name": "w-spot-ws",
   "version": "1.0.1",
-  "description": "Web socket implementation of w-signal",
+  "description": "Web socket implementation of w-spot",
   "main": "lib",
   "browser": "shim",
   "scripts": {
@@ -14,7 +14,7 @@
     "update": "the-script-update",
     "watch": "the-script-build -w"
   },
-  "repository": "realglobe-Inc/w-signal-ws",
+  "repository": "realglobe-Inc/w-spot-ws",
   "keywords": [
     "the"
   ],
@@ -25,11 +25,11 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/realglobe-Inc/w-signal-ws/issues"
+    "url": "https://github.com/realglobe-Inc/w-spot-ws/issues"
   },
-  "homepage": "https://github.com/realglobe-Inc/w-signal-ws#readme",
+  "homepage": "https://github.com/realglobe-Inc/w-spot-ws#readme",
   "dependencies": {
-    "w-signal": "^1.1.1",
+    "w-spot": "^2.0.0",
     "ws": "^3.3.1"
   },
   "devDependencies": {

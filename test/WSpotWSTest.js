@@ -1,15 +1,15 @@
 /**
- * Test for WSignalWs.
+ * Test for WSpotWS.
  * Runs with mocha.
  */
 'use strict'
 
-const WSignalWs = require('../lib/WSignalWs')
+const WSpotWS = require('../lib/WSpotWS')
 const {ok, equal} = require('assert')
 const asleep = require('asleep')
 const aport = require('aport')
 
-describe('w-signal-ws', function () {
+describe('w-spot-ws', function () {
   this.timeout(9000)
   before(() => {
   })
@@ -18,16 +18,16 @@ describe('w-signal-ws', function () {
   })
 
   it('Do test', async () => {
-    ok(WSignalWs)
+    ok(WSpotWS)
     const port = await aport()
 
-    const signal01 = new WSignalWs()
-    const signal02 = new WSignalWs.Client()
-    const signal03 = new WSignalWs.Client()
+    const spot01 = new WSpotWS()
+    const spot02 = new WSpotWS.Client()
+    const spot03 = new WSpotWS.Client()
 
-    await signal01.open({port})
-    await signal02.open({port})
-    await signal03.open({port})
+    await spot01.listenAsServer(port)
+    await spot02.connectAsClient({port})
+    await spot03.connectAsClient({port})
 
     {
       class HeyPerson {
@@ -36,22 +36,22 @@ describe('w-signal-ws', function () {
         }
       }
 
-      signal01.load(HeyPerson, 'john')
-      signal02.load(HeyPerson, 'tom')
+      spot01.load(HeyPerson, 'john')
+      spot02.load(HeyPerson, 'tom')
     }
 
     {
-      const john = await signal03.use('john')
-      const tom = await signal03.use('tom')
+      const john = await spot03.use('john')
+      const tom = await spot03.use('tom')
       equal(await john.greet('Nice day'), 'Hey, Nice day')
       equal(await tom.greet('Nice day'), 'Hey, Nice day')
     }
 
     await asleep(100)
 
-    await signal01.close()
-    await signal02.close()
-    await signal03.close()
+    await spot01.close()
+    await spot02.close()
+    await spot03.close()
 
   })
 })

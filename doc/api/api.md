@@ -1,19 +1,19 @@
-# w-signal-ws@1.0.0
+# w-spot-ws@1.0.1
 
-Web socket implementation of w-signal
+Web socket implementation of w-spot
 
 + Functions
-  + [create(args)](#w-signal-ws-function-create)
-+ [`WSignalWs`](#w-signal-ws-classes) Class
-  + [new WSignalWs()](#w-signal-ws-classes-w-signal-ws-constructor)
+  + [create(args)](#w-spot-ws-function-create)
++ [`WSpotWS`](#w-spot-ws-classes) Class
+  + [new WSpotWS()](#w-spot-ws-classes-w-spot-w-s-constructor)
 
 ## Functions
 
-<a class='md-heading-link' name="w-signal-ws-function-create" ></a>
+<a class='md-heading-link' name="w-spot-ws-function-create" ></a>
 
-### create(args) -> `WSignalWs`
+### create(args) -> `WSpotWs`
 
-Create a WSignalWs instance
+Create a WSpotWs instance
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -21,20 +21,20 @@ Create a WSignalWs instance
 
 
 
-<a class='md-heading-link' name="w-signal-ws-classes"></a>
+<a class='md-heading-link' name="w-spot-ws-classes"></a>
 
-## `WSignalWs` Class
-
-
+## `WSpotWS` Class
 
 
 
 
-<a class='md-heading-link' name="w-signal-ws-classes-w-signal-ws-constructor" ></a>
 
-### new WSignalWs()
 
-Constructor of WSignalWs class
+<a class='md-heading-link' name="w-spot-ws-classes-w-spot-w-s-constructor" ></a>
+
+### new WSpotWS()
+
+Constructor of WSpotWS class
 
 
 
