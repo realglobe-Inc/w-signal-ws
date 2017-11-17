@@ -85,8 +85,8 @@ async function tryExample () {
   const port = 8080
 
   await HongKong.listenAsServer(port)
-  await NewYork.connectAsClient({port})
-  await Japan.connectAsClient({port})
+  await NewYork.connectAsClient(`ws://localhost:${port}`)
+  await Japan.connectAsClient(`ws://localhost:${port}`)
 
   {
     class Person {
@@ -122,7 +122,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [w-spot-ws@1.0.1](./doc/api/api.md)
++ [w-spot-ws@1.0.2](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#w-spot-ws-function-create)
   + [WSpotWS](./doc/api/api.md#w-spot-w-s-class)
 
