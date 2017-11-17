@@ -1,4 +1,4 @@
-# w-spot-ws@1.0.2
+# w-spot-ws@1.0.3
 
 Web socket implementation of w-spot
 
