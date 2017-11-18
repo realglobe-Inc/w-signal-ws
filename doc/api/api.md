@@ -1,4 +1,4 @@
-# w-spot-ws@1.0.3
+# w-spot-ws@1.1.0
 
 Web socket implementation of w-spot
 
@@ -17,9 +17,9 @@ Web socket implementation of w-spot
 
 <a class='md-heading-link' name="w-spot-ws-function-create" ></a>
 
-### create(args) -> `WSpotWs`
+### create(args) -> `WSpotWS`
 
-Create a WSpotWs instance
+Create a WSpotWS instance
 
 | Param | Type | Description |
 | ----- | --- | -------- |

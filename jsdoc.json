@@ -43,14 +43,6 @@
             }
         },
         {
-            "name": "messageHandler",
-            "access": "",
-            "virtual": false,
-            "description": "Define messageHandler",
-            "parameters": [],
-            "examples": []
-        },
-        {
             "name": "spotProxy",
             "access": "",
             "virtual": false,

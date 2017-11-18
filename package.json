@@ -1,6 +1,6 @@
 {
   "name": "w-spot-ws",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Web socket implementation of w-spot",
   "main": "lib",
   "browser": "shim",
