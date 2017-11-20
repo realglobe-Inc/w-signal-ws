@@ -26,8 +26,8 @@ describe('w-spot-ws', function () {
     const spot03 = new WSpotWS.Client()
 
     await spot01.listenAsServer(port)
-    await spot02.connectAsClient(`ws://localhost:${port}`)
-    await spot03.connectAsClient(`ws://localhost:${port}`)
+    await spot02.connectAsClient(`http://localhost:${port}`)
+    await spot03.connectAsClient(`http://localhost:${port}`)
 
     {
       class HeyPerson {

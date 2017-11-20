@@ -1,10 +1,9 @@
-# w-spot-ws@1.1.0
+# w-spot-ws@1.1.1
 
 Web socket implementation of w-spot
 
 + Functions
   + [create(args)](#w-spot-ws-function-create)
-  + [messageHandler()](#w-spot-ws-function-message-handler)
   + [spotProxy()](#w-spot-ws-function-spot-proxy)
 + [`WSpotWS`](#w-spot-ws-classes) Class
   + [new WSpotWS()](#w-spot-ws-classes-w-spot-w-s-constructor)
@@ -25,11 +24,6 @@ Create a WSpotWS instance
 | ----- | --- | -------- |
 | args | * |  |
 
-<a class='md-heading-link' name="w-spot-ws-function-message-handler" ></a>
-
-### messageHandler()
-
-Define messageHandler
 <a class='md-heading-link' name="w-spot-ws-function-spot-proxy" ></a>
 
 ### spotProxy()
