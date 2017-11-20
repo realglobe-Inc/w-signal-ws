@@ -22,13 +22,13 @@ async function tryExample () {
     }
 
     // Create a instance to a spot
-    const john = NewYork.load(Person, 'john')
+    const john = NewYork.load(Person, 'jp.realglobe.new-york.john')
     await john.hi('I am in NewYork!')
   }
 
   {
     // Use remote instance
-    const john = Japan.use('john')
+    const john = Japan.use('jp.realglobe.new-york.john')
     await john.hi('Calling from Japan!')
   }
 
