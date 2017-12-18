@@ -1,6 +1,6 @@
 {
   "name": "w-spot-ws",
-  "version": "1.1.3",
+  "version": "2.0.0",
   "description": "Web socket implementation of w-spot",
   "main": "lib",
   "browser": "shim",
@@ -29,15 +29,16 @@
   },
   "homepage": "https://github.com/realglobe-Inc/w-spot-ws#readme",
   "dependencies": {
-    "w-spot": "^2.0.1",
-    "ws": "^3.3.1"
+    "shiba-ws-util": "^1.0.1",
+    "w-spot": "^2.0.3",
+    "ws": "^3.3.3"
   },
   "devDependencies": {
     "aport": "^2.0.0",
     "asleep": "^1.0.3",
     "mocha": "^4.0.1",
     "the-script-build": "^2.0.0",
-    "the-script-jsdoc": "^2.0.0",
+    "the-script-jsdoc": "^2.0.1",
     "the-script-release": "^1.0.6",
     "the-script-share": "^1.0.5",
     "the-script-update": "^1.0.0",
